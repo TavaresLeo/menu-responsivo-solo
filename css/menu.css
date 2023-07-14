@@ -229,13 +229,13 @@ a.active, a:hover {
 
     .menu-social .facebook a {
         position: relative;
-        top: -100px;
+        top: -50px;
         float: left;
         /* left: 5vw; */
         background: white;
         color: blue;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         max-width: 100%;
         border: 1px solid #485E88;
         border-radius: 50%;
@@ -248,19 +248,19 @@ a.active, a:hover {
         left: 0px;
         background: white;
         color: blue;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border: 1px solid #485E88;
         border-radius: 50%;
     }
 
     .menu-social .instagram a {
         position: relative;
-        top: -100px;
+        top: -50px;
         float: left;
         /* left: 10vw; */
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         max-width: 100%;
         border: 1px solid #485E88;
         border-radius: 50%;
@@ -272,8 +272,8 @@ a.active, a:hover {
         float: left;
         top: 0;
         left: 0px;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border: 1px solid #485E88;
         border-radius: 50%;
         background: white;
@@ -281,11 +281,11 @@ a.active, a:hover {
     }
     .menu-social .youTube a {
         position: relative;
-        top: -100px;
+        top: -50px;
         float: left;
         /* left: 15vw; */
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         max-width: 100%;
         border: 1px solid #485E88;
         border-radius: 50%;
@@ -297,8 +297,8 @@ a.active, a:hover {
         top: 0px;
         float: left;
         left: 0px;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border: 1px solid #485E88;
         border-radius: 50%;
         background: white;
@@ -306,11 +306,11 @@ a.active, a:hover {
 
     .menu-social .WhatsApp a {
         position: relative;
-        top: -100px;
+        top: -50px;
         float: left;
         /* left: 20vw; */
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         max-width: 100%;
         border: 1px solid #485E88;
         border-radius: 50%;
@@ -322,8 +322,8 @@ a.active, a:hover {
         top: 0px;
         float: left;
         left: 0px;
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
         border: 1px solid #485E88;
         border-radius: 50%;
         background: white;
