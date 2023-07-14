@@ -79,6 +79,10 @@ a.active, a:hover {
 		display: block;
 	}
   
+    main {
+        display: none;
+    }
+
 	ul { 
 		position: fixed;
 		width: 100%;
@@ -90,15 +94,14 @@ a.active, a:hover {
 		transition: all .5s;
 	}
    
-	nav ul li {
+	nav ul li{
         display: block;
-        margin: 40px 0;
-        line-height: 30px;
+        margin: 25px 0;
+        line-height: 25px;
         text-align: left;
-        margin-left: 27px;
-        top: 215px;
+        margin-left: 25px;
+        top: 20px;
         position: relative;
-        
         width: 85vw;
         letter-spacing: 1px;
     }
@@ -117,7 +120,7 @@ a.active, a:hover {
 	}
 
 	#check:checked ~ ul {
-		left: 0;
+		left: 0;  
 	}
 
     #lupa {
@@ -144,9 +147,9 @@ a.active, a:hover {
     .footer-nav {
         position: absolute;
         width: 100%;
-        height: 150px;
+        height: 110px;
         background: #485E88;
-        top: 875px;
+        top: 405px;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -155,7 +158,7 @@ a.active, a:hover {
     #check:checked ~ .footer-nav {
       left: 0;
     }
-  
+
     .uni {
         position: absolute;
         top: 10px;
@@ -201,21 +204,24 @@ a.active, a:hover {
     .menu-social {
         position: absolute;
         width: 100%;
-        display: block;
-        top: 160px;
+        top: 240px;
         left: auto;
         border: none;
+        display: flex;
+        justify-content: space-between;
+    
     }
 
     .menu-social .facebook a {
         position: relative;
-        top: -200px;
+        top: -100px;
         float: left;
-        left: 40px;
+        /* left: 5vw; */
         background: white;
         color: blue;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
+        max-width: 100%;
         border: 1px solid #485E88;
         border-radius: 50%;
     }
@@ -227,19 +233,20 @@ a.active, a:hover {
         left: 0px;
         background: white;
         color: blue;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border: 1px solid #485E88;
         border-radius: 50%;
     }
 
     .menu-social .instagram a {
         position: relative;
-        top: -200px;
+        top: -100px;
         float: left;
-        left: 60px;
-        width: 50px;
-        height: 50px;
+        /* left: 10vw; */
+        width: 40px;
+        height: 40px;
+        max-width: 100%;
         border: 1px solid #485E88;
         border-radius: 50%;
         background: white;
@@ -250,8 +257,8 @@ a.active, a:hover {
         float: left;
         top: 0;
         left: 0px;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border: 1px solid #485E88;
         border-radius: 50%;
         background: white;
@@ -259,11 +266,12 @@ a.active, a:hover {
     }
     .menu-social .youTube a {
         position: relative;
-        top: -200px;
+        top: -100px;
         float: left;
-        left: 80px;
-        width: 50px;
-        height: 50px;
+        /* left: 15vw; */
+        width: 40px;
+        height: 40px;
+        max-width: 100%;
         border: 1px solid #485E88;
         border-radius: 50%;
         background: white;
@@ -274,8 +282,8 @@ a.active, a:hover {
         top: 0px;
         float: left;
         left: 0px;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border: 1px solid #485E88;
         border-radius: 50%;
         background: white;
@@ -283,11 +291,12 @@ a.active, a:hover {
 
     .menu-social .WhatsApp a {
         position: relative;
-        top: -200px;
+        top: -100px;
         float: left;
-        left: 100px;
-        width: 50px;
-        height: 50px;
+        /* left: 20vw; */
+        width: 40px;
+        height: 40px;
+        max-width: 100%;
         border: 1px solid #485E88;
         border-radius: 50%;
         background: white;
@@ -298,13 +307,14 @@ a.active, a:hover {
         top: 0px;
         float: left;
         left: 0px;
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
         border: 1px solid #485E88;
         border-radius: 50%;
         background: white;
     }
 
+}
 /*
   @media screen and (max-width: 500px) {
 
