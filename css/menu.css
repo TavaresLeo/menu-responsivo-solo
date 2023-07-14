@@ -115,7 +115,7 @@ a.active, a:hover {
         line-height: 25px;
         text-align: left;
         margin-left: 25px;
-        top: 60px;
+        top: 30px;
         position: relative;
         width: 85vw;
         letter-spacing: 1px;
@@ -219,7 +219,7 @@ a.active, a:hover {
     .menu-social {
         position: absolute;
         width: 100%;
-        top: 240px;
+        top: 160px;
         left: auto;
         border: none;
         display: flex;
