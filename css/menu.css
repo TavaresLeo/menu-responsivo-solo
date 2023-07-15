@@ -63,6 +63,10 @@ a.active, a:hover {
     display: none;
 }
 
+#content.hidden {
+    display: none;
+}
+
 @media (max-width: 952px){
 	label.logo{
 		font-size: 30px;
@@ -95,6 +99,10 @@ a.active, a:hover {
         width: 90px;
         height: 70px;
         position: relative;
+    }
+    
+    #content.hidden {
+        display: none;
     }
 
 	ul { 
